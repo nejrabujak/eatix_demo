@@ -1,0 +1,35 @@
+
+.footer {
+    border-top: 1px solid #ecf0f1;
+    padding: 5rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #7f8c8d;
+    justify-content: flex-start;
+}
+
+.footer i {
+    color: red;
+}
+@media screen and (max-width: 600px) {
+    .footer {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text1{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
